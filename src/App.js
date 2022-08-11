@@ -25,21 +25,21 @@ const App = () => {
           <div className='mx-auto min-w-[1rem]' />
           <div className='text-white flex space-x-4 text-xs'>
             <div className='whitespace-nowrap '>
-              <AiOutlineHeart className='h-[2rem] w-[2rem] mx-auto text-yellow-400 cursor-pointer' />
+              <AiOutlineHeart className='h-[1.25rem] w-[1.25rem] mx-auto text-yellow-400 cursor-pointer' />
               <div className="w-full  flex justify-center items-center">
                 <label className='mx-auto'>Wish Lists</label>
               </div>
             </div>
             <div className='whitespace-nowrap '>
-              <AiOutlineUser className='h-[2rem] w-[2rem] mx-auto text-yellow-400 cursor-pointer' />
+              <AiOutlineUser className='h-[1.25rem] w-[1.25rem] mx-auto text-yellow-400 cursor-pointer' />
               <div className="w-full  flex justify-center items-center">
                 <label className='mx-auto'>Sign In</label>
               </div>
             </div>
             <div className='whitespace-nowrap '>
-              <div className="relative w-[2rem]">
-                <div className="bg-blue-400 w-[1.3rem] h-[1.3rem] absolute rounded-full flex justify-center items-center ml-[1rem] mb-[1rem] text-white">0</div>
-                <AiOutlineShoppingCart className='h-[2rem] w-[2rem] text-yellow-400 cursor-pointer' />
+              <div className="relative w-[1.25rem]">
+                <div className="bg-blue-400 min-w-[1rem] h-[1rem] absolute rounded-full flex justify-center items-center ml-[1rem] mb-[1rem] text-white text-[0.6rem]">0</div>
+                <AiOutlineShoppingCart className='h-[1.25rem] w-[1.25rem] text-yellow-400 cursor-pointer' />
               </div>
               <div className="w-full  flex justify-center items-center">
                 <label className='mx-auto'>Cart</label>
@@ -50,19 +50,19 @@ const App = () => {
       </div>
       <div className='px-[1rem] flex md:hidden h-[4rem] w-full bg-[#FFFFFF] justify-center items-center'>
         <GiHamburgerMenu className='h-[1.8rem] w-[1.8rem] text-black cursor-pointer' />
-        <div className='w-[2rem]' />
+        <div className='w-[1.25rem]' />
         <AiOutlineSearch className='h-[1.8rem] w-[1.8rem] text-black cursor-pointer' />
         <div className='ml-auto flex'>
-          <BiUserCircle className='ml-[2rem] h-[1.8rem] w-[1.8rem] text-black cursor-pointer' />
-          <div className="ml-[2rem] relative w-[2rem] cursor-pointer">
-            <div className="bg-blue-400 w-[1.3rem] h-[1.3rem] absolute rounded-full flex justify-center items-center ml-[1rem] mb-[1rem] text-white">0</div>
+          <BiUserCircle className='ml-[1.25rem] h-[1.8rem] w-[1.8rem] text-black cursor-pointer' />
+          <div className="ml-[1.25rem] relative w-[1.25rem] cursor-pointer">
+            <div className="bg-blue-400 min-w-[1rem] h-[1rem] absolute rounded-full flex justify-center items-center ml-[1rem] mb-[1rem] text-white text-[0.6rem]">0</div>
             <RiShoppingBagLine className='h-[1.8rem] w-[1.8rem] text-black' />
           </div>
         </div>
       </div>
       <div className='px-[1rem] w-[100%] flex justify-center items-center'>
         <div className='w-[100%] md:w-[70%]'>
-          <div className='h-[2rem] md:h-[5rem]' />
+          <div className='h-[1.25rem] md:h-[5rem]' />
           <label className='text-red-600 font-bold text-3xl'>Flash Deals</label>
         </div>
 
