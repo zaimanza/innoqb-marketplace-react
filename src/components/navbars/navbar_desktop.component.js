@@ -24,9 +24,9 @@ const NavbarDesktop = () => {
                     <CardIcon iconName={"AiOutlineHeart"} />
                     <CardIcon iconName={"AiOutlineUser"} />
                     <div className='whitespace-nowrap '>
-                        <div className="relative w-[1.25rem]">
+                        <div className="relative w-[1.25rem] hover:w-[1.3rem]">
                             <div className="bg-blue-400 min-w-[1rem] h-[1rem] absolute rounded-full flex justify-center items-center ml-[1rem] mb-[1rem] text-white text-[0.6rem]">0</div>
-                            <AiOutlineShoppingCart className='h-[1.25rem] w-[1.25rem] text-yellow-400 cursor-pointer' />
+                            <AiOutlineShoppingCart className='h-[1.25rem] w-[1.25rem] hover:h-[1.3rem] hover:w-[1.3rem] text-yellow-400 cursor-pointer' />
                         </div>
                         <div className="w-full  flex justify-center items-center">
                             <label className='mx-auto'>Cart</label>
